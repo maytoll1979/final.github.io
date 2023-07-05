@@ -1,0 +1,22 @@
+footer{
+    background-color: #002366;
+    text-align: center;
+    color: #fbfbfb;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icono{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 1rem;
+}
+
+#iconos{
+    display:flex;
+    justify-content: center;
+    
+}

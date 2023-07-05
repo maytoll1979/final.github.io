@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Maita</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contac.css" />
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <div class="logotipo">
+                <img src="img\logo2.png" alt="logo" id="logo" width="100">
+            </div>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="abrir menú" />
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/close-icon.svg" alt="cerrar menú" />
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="profile" id="profile">
+            <span class="profile-img-section">
+                <img class="profile-img" src="img\personal.png" alt="soy jesus" width="100%" height="100%" />
+            </span>
+
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br />Jesus Maita</h1>
+                <p class="profile-details">
+                    Soy un apasionado por la arquitectura y desarrollo de software, emprendiendo mi camino como desarrollador Junior
+                </p>
+                <a class="boton" href="https://drive.google.com/file/d/1YqAv_TOltOVO3-ZLOhG_JqvJDr6lBIJ_/view?usp=sharing" target="_blank">Descarga mi CV</a>
+            </div>
+
+        </section>
+
+        <section class="experiences" id="experience">
+            <div class="experiences-body">
+                <h2 class="experiences-title">Experiencia</h2>
+                <div class="experiences-grid">
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience">
+                        <div class="experience-date">2022-2023</div>
+                        <div class="experience-company">Productive Bussisnes Services</div>
+                        <div class="experience-position">Representante Tecnico</div>
+                        <div class="experience-description">
+                            Soporte tecnico a impresoras multifuncionales Xerox.
+                        </div>
+                    </div>
+                    <div class="experience experience_left">
+                        <div class="experience-date">2021-2020</div>
+                        <div class="experience-company">MSH System</div>
+                        <div class="experience-position">Tecnico en impresoras</div>
+                        <div class="experience-description">
+                            Tecnico multimarca de equipos de impresion y de oficina.
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience">
+                        <div class="experience-date">2020-2018</div>
+                        <div class="experience-company">Color Solution</div>
+                        <div class="experience-position">Tecnico</div>
+                        <div class="experience-description">
+                            Reparacion ,instalacion e induccion de equipos de impresion de baja y alta gama.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">Python</li>
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">Sql</li>
+                <li class="skills-skill">JavaScript</li>
+            </ul>
+        </section>
+
+        <br>
+
+        <div id="iconos">
+            <a href="mailto:maytoll@gmail.com?Subject=Interesado%20en%20sus%20servicios" target="_blank">
+                <img src="img/mail.png" alt="" class="icono">
+            </a>
+
+            <a href="https://github.com/maytoll1979" target="_blank">
+                <img src="img/github.png" alt="" class="icono">
+            </a>
+
+            <a href="https://www.linkedin.com/in/jesus-maita-63624223" target="_blank">
+                <img src="img/linkedin.png" alt="" class="icono">
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>Código Latam Jesus Maita</p>
+            <p>29/24/2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>
